@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Waterapp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_learn_more">LearnMore</string>
+    <string name="title_activity_watertest">Watertest</string>
+    <string name="title_activity_watertest2">Watertest2</string>
+    <string name="title_activity_watertest3">Watertest3</string>
+    <string name="title_activity_watertest4">Watertest4</string>
+    <string name="title_activity_watertest5">Watertest5</string>
+    <string name="title_activity_watertest6">Watertest6</string>
+    <string name="title_activity_watertest9">Watertest9</string>
+    <string name="title_activity_contaminated">contaminated</string>
+    <string name="title_activity_clean">clean</string>
+    <string name="title_activity_watertest7">Watertest7</string>
+    <string name="title_activity_watertest8">Watertest8</string>
+    <string name="title_activity_filter1">Filter1</string>
+    <string name="title_activity_filter2">Filter2</string>
+    <string name="title_activity_filter3">Filter3</string>
+    <string name="title_activity_watertest10">Watertest10</string>
+</resources>

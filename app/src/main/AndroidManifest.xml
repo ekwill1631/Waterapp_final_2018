@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.evelynwilliams.waterapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/watertheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Watertest"
+            android:label="@string/title_activity_watertest"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Watertest2"
+            android:label="@string/title_activity_watertest2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Watertest3"
+            android:label="@string/title_activity_watertest3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Watertest4"
+            android:label="@string/title_activity_watertest4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Watertest5"
+            android:label="@string/title_activity_watertest5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Watertest9"
+            android:label="@string/title_activity_watertest9"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".contaminated"
+            android:label="@string/title_activity_contaminated"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".clean"
+            android:label="@string/title_activity_clean"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Watertest8"
+            android:label="@string/title_activity_watertest8"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Filter1"
+            android:label="@string/title_activity_filter1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Filter2"
+            android:label="@string/title_activity_filter2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Filter3"
+            android:label="@string/title_activity_filter3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Watertest6"
+            android:label="@string/title_activity_watertest6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Watertest10"
+            android:label="@string/title_activity_watertest10"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

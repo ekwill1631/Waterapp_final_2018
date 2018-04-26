@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.evelynwilliams.waterapp.contaminated"
+    tools:showIn="@layout/activity_contaminated">
+
+    <Button
+        android:id="@+id/retest"
+        android:layout_width="228dp"
+        android:layout_height="82dp"
+        android:text="Filter your water!"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.939" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="326dp"
+        android:layout_height="100dp"
+        android:text="Oh no! Your water is dirty! Let's try filtering your water with an Ecofilter."
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="292dp"
+        android:layout_height="497dp"
+        app:layout_constraintBottom_toTopOf="@+id/retest"
+        app:layout_constraintEnd_toStartOf="@+id/retest"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/retest"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/dirtywater" />
+
+</android.support.constraint.ConstraintLayout>
